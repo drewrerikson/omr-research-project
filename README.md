@@ -1,6 +1,4 @@
-# CSCI 4511 OMR Final Project
-
-Drew and Carter try to be good at OMR. _We dem boys._
+# CSCI 4511 OMR Project
 
 ### Data
 Utilizing the HOMUS dataset [https://grfia.dlsi.ua.es/homus/] with 15200 symbols spread across 32 classes. Each image has been shrunk to 112x112 pixels. The data is split into training (80%), validation (10%), and test (10%) subsets.
@@ -38,21 +36,4 @@ Note that the `refit` argument will significantly heighten run-time when provide
 * [x] Efficiency & Accuracy Graph
 * [x] Split by Class Side Bar Graph
 * [x] KNN Graph
-* [ ] *Record results*
-* [ ] *Write the damn paper*
-
-### Timeline:
-* [x] Week 1:
-  - Project Proposal, Literature Review, Collection of Sources, Experimental Definition, Begin Implementation
-* [x] Week 2:
-  - Completely Implement Framework for Experiments (Write scripts for running and collecting data for KNN, SVM, and Deep Learning approaches)
-* [ ] Week 3:
-  - Run Experiments, Collect Data, Begin Analysis and Report
-* [ ] Week 4:
-  - Continue Report, Analyze Results, Draw Conclusions, Draw up Figures
-* [ ] Week 5: *(If needed)*
-  - Finish Report, Write Abstract, Final Revising, Turn-in
-
-### Credits
-- Carter Mintey
-- Drew Erikson
+* [x] Record results
