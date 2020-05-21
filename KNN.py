@@ -47,7 +47,7 @@ def KNN(X, y, X_test, y_test, refit=False):
     plt.show()
 
     # take the best
-    return accuracies[best], best+2
+    return accuracies[best], best+2, start[best], end[best]
 
 
 def PlotKNN(ks, accuracies, efficiencies, ax):
@@ -66,5 +66,6 @@ def PlotKNN(ks, accuracies, efficiencies, ax):
     ax.set_title("Accuracy & Efficiency with different K's")
     ax.set_xticks(x)
     ax.set_xticklabels(ks)
+    ax.set_xlabel("k")
 
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor")

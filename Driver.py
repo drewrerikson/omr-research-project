@@ -56,11 +56,13 @@ def main():
     accuracies = []; end = []; start = [];
 
     print("-= Begin KNN =-")
-    start.append(time.time())
-    accuracy, k = KNN(X, y, X_test, y_test, refit)
-    end.append(time.time())
+    kstart = time.time()
+    accuracy, k, st, nd = KNN(X, y, X_test, y_test, refit)
+    kend = time.time()
+    start.append(st)
+    end.append(nd)
     accuracies.append(accuracy)
-    print(f"KNN acc:{100 * accuracy[-1,1]:.2f}%\t total time:{(end[-1]-start[-1]):.2f}s\t best k:{k}\n")
+    print(f"KNN acc:{100 * accuracy[-1,1]:.2f}%\t total time:{(kend-kstart):.2f}s\t best k:{k}\n")
 
     print("-= Begin SVM =-")
     start.append(time.time())

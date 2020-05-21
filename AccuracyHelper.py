@@ -44,10 +44,10 @@ def PlotClassAccuracy(accuracies, ax):
     classes.sort()
     x = np.arange(len(classes))
     width = 0.20
-    ax.barh(x - 1.5*width, knn[:-1,-1], width, label="KNN")
-    ax.barh(x - width/2, svm[:-1,-1], width, label="SVM")
-    ax.barh(x + width/2, sgd[:-1,-1], width, label="SGD")
-    ax.barh(x + 1.5*width, nn[:-1,-1], width, label="NN")
+    ax.barh(x + 1.5*width, knn[:-1,-1], width, label="KNN", color="#00E6CF")
+    ax.barh(x + width/2, svm[:-1,-1], width, label="SVM", color="#00BFAF")
+    ax.barh(x - width/2, sgd[:-1,-1], width, label="SGD", color="#008075")
+    ax.barh(x - 1.5*width, nn[:-1,-1], width, label="NN", color="#00403A")
 
     ax.set_xlabel("Accuracy")
     ax.set_title("Per Class Accuracy on Different Classifiers")
@@ -62,11 +62,11 @@ def PlotAlgAccEff(accuracies, efficiencies, ax):
     algs = ["KNN", "SVM", "SGD", "NN"]
 
     ax2 = ax.twinx()
-    ax2.bar(x, efficiencies, .5, label="Efficiencies", color = 'g')
+    b1 = ax2.bar(x+0.4, efficiencies, .4, label="Efficiencies", color = 'g')
     ax2.set_ylabel("Efficiency (s)", color = 'g')
     ax2.tick_params(axis='y', labelcolor='g')
 
-    ax.bar(x+.3, acc, .5, label="Accuracies", color = 'b')
+    b2 = ax.bar(x, acc, .4, label="Accuracies", color = 'b')
     ax.set_ylabel("Accuracy (%)", color = 'b')
     ax.tick_params(axis='y', labelcolor='b')
 
@@ -75,3 +75,13 @@ def PlotAlgAccEff(accuracies, efficiencies, ax):
     ax.set_xticklabels(algs)
 
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor")
+
+    def labelbar(bars,a):
+        for b in bars:
+            height = b.get_height()
+            a.annotate('{:.2f}'.format(height), xy=(b.get_x() + b.get_width() / 2, height),
+                        xytext=(0, 3),  # 3 points vertical offset
+                        textcoords="offset points",
+                        ha='center', va='bottom')
+    labelbar(b1, ax2)
+    labelbar(b2, ax)
