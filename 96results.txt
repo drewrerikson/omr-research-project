@@ -1,0 +1,326 @@
+############################################
+##    Classification on 96x96px Images    ##
+##              200 components            ##
+############################################
+
+Loading Data...
+Data Loaded.
+
+Reducing dimensionality of data with PCA...
+73.95% of variance explained
+
+-= Begin KNN =-
+Running KNN with k=2...
+Loading model...
+Getting predictions...
+Calculating loss...
+12-8-Time          Loss: 14   Accuracy: 82.50%
+2-2-Time           Loss: 13   Accuracy: 83.33%
+2-4-Time           Loss: 30   Accuracy: 62.50%
+3-4-Time           Loss: 22   Accuracy: 72.50%
+3-8-Time           Loss: 30   Accuracy: 62.50%
+4-4-Time           Loss: 18   Accuracy: 77.50%
+6-8-Time           Loss: 10   Accuracy: 87.50%
+9-8-Time           Loss: 15   Accuracy: 81.25%
+Barline            Loss: 1    Accuracy: 98.75%
+C-Clef             Loss: 16   Accuracy: 80.00%
+Common-Time        Loss: 1    Accuracy: 98.75%
+Cut-Time           Loss: 16   Accuracy: 80.00%
+Dot                Loss: 4    Accuracy: 95.00%
+Double-Sharp       Loss: 14   Accuracy: 82.50%
+Eighth-Note        Loss: 64   Accuracy: 60.00%
+Eighth-Rest        Loss: 10   Accuracy: 87.50%
+F-Clef             Loss: 7    Accuracy: 91.25%
+Flat               Loss: 10   Accuracy: 87.18%
+G-Clef             Loss: 8    Accuracy: 90.00%
+Half-Note          Loss: 31   Accuracy: 80.38%
+Natural            Loss: 11   Accuracy: 86.25%
+Quarter-Note       Loss: 48   Accuracy: 70.00%
+Quarter-Rest       Loss: 28   Accuracy: 65.00%
+Sharp              Loss: 33   Accuracy: 58.75%
+Sixteenth-Note     Loss: 85   Accuracy: 46.88%
+Sixteenth-Rest     Loss: 29   Accuracy: 63.75%
+Sixty-Four-Note    Loss: 63   Accuracy: 60.13%
+Sixty-Four-Rest    Loss: 37   Accuracy: 53.75%
+Thirty-Two-Note    Loss: 104  Accuracy: 34.18%
+Thirty-Two-Rest    Loss: 39   Accuracy: 51.25%
+Whole-Half-Rest    Loss: 5    Accuracy: 93.75%
+Whole-Note         Loss: 3    Accuracy: 96.25%
+
+Loss: 819.0	 Time: 3.01s
+
+Running KNN with k=3...
+Loading model...
+Getting predictions...
+Calculating loss...
+12-8-Time          Loss: 14   Accuracy: 82.50%
+2-2-Time           Loss: 11   Accuracy: 85.90%
+2-4-Time           Loss: 28   Accuracy: 65.00%
+3-4-Time           Loss: 20   Accuracy: 75.00%
+3-8-Time           Loss: 19   Accuracy: 76.25%
+4-4-Time           Loss: 16   Accuracy: 80.00%
+6-8-Time           Loss: 7    Accuracy: 91.25%
+9-8-Time           Loss: 14   Accuracy: 82.50%
+Barline            Loss: 1    Accuracy: 98.75%
+C-Clef             Loss: 16   Accuracy: 80.00%
+Common-Time        Loss: 1    Accuracy: 98.75%
+Cut-Time           Loss: 12   Accuracy: 85.00%
+Dot                Loss: 4    Accuracy: 95.00%
+Double-Sharp       Loss: 16   Accuracy: 80.00%
+Eighth-Note        Loss: 59   Accuracy: 63.12%
+Eighth-Rest        Loss: 12   Accuracy: 85.00%
+F-Clef             Loss: 8    Accuracy: 90.00%
+Flat               Loss: 11   Accuracy: 85.90%
+G-Clef             Loss: 4    Accuracy: 95.00%
+Half-Note          Loss: 31   Accuracy: 80.38%
+Natural            Loss: 11   Accuracy: 86.25%
+Quarter-Note       Loss: 40   Accuracy: 75.00%
+Quarter-Rest       Loss: 29   Accuracy: 63.75%
+Sharp              Loss: 26   Accuracy: 67.50%
+Sixteenth-Note     Loss: 81   Accuracy: 49.38%
+Sixteenth-Rest     Loss: 26   Accuracy: 67.50%
+Sixty-Four-Note    Loss: 61   Accuracy: 61.39%
+Sixty-Four-Rest    Loss: 34   Accuracy: 57.50%
+Thirty-Two-Note    Loss: 100  Accuracy: 36.71%
+Thirty-Two-Rest    Loss: 44   Accuracy: 45.00%
+Whole-Half-Rest    Loss: 6    Accuracy: 92.50%
+Whole-Note         Loss: 2    Accuracy: 97.50%
+
+Loss: 764.0	 Time: 3.20s
+
+Running KNN with k=4...
+Loading model...
+Getting predictions...
+Calculating loss...
+12-8-Time          Loss: 14   Accuracy: 82.50%
+2-2-Time           Loss: 12   Accuracy: 84.62%
+2-4-Time           Loss: 27   Accuracy: 66.25%
+3-4-Time           Loss: 18   Accuracy: 77.50%
+3-8-Time           Loss: 20   Accuracy: 75.00%
+4-4-Time           Loss: 17   Accuracy: 78.75%
+6-8-Time           Loss: 7    Accuracy: 91.25%
+9-8-Time           Loss: 13   Accuracy: 83.75%
+Barline            Loss: 1    Accuracy: 98.75%
+C-Clef             Loss: 18   Accuracy: 77.50%
+Common-Time        Loss: 1    Accuracy: 98.75%
+Cut-Time           Loss: 14   Accuracy: 82.50%
+Dot                Loss: 3    Accuracy: 96.25%
+Double-Sharp       Loss: 19   Accuracy: 76.25%
+Eighth-Note        Loss: 58   Accuracy: 63.75%
+Eighth-Rest        Loss: 12   Accuracy: 85.00%
+F-Clef             Loss: 7    Accuracy: 91.25%
+Flat               Loss: 9    Accuracy: 88.46%
+G-Clef             Loss: 5    Accuracy: 93.75%
+Half-Note          Loss: 29   Accuracy: 81.65%
+Natural            Loss: 12   Accuracy: 85.00%
+Quarter-Note       Loss: 42   Accuracy: 73.75%
+Quarter-Rest       Loss: 29   Accuracy: 63.75%
+Sharp              Loss: 27   Accuracy: 66.25%
+Sixteenth-Note     Loss: 87   Accuracy: 45.62%
+Sixteenth-Rest     Loss: 27   Accuracy: 66.25%
+Sixty-Four-Note    Loss: 65   Accuracy: 58.86%
+Sixty-Four-Rest    Loss: 33   Accuracy: 58.75%
+Thirty-Two-Note    Loss: 98   Accuracy: 37.97%
+Thirty-Two-Rest    Loss: 40   Accuracy: 50.00%
+Whole-Half-Rest    Loss: 5    Accuracy: 93.75%
+Whole-Note         Loss: 2    Accuracy: 97.50%
+
+Loss: 771.0	 Time: 3.21s
+
+Running KNN with k=5...
+Loading model...
+Getting predictions...
+Calculating loss...
+12-8-Time          Loss: 12   Accuracy: 85.00%
+2-2-Time           Loss: 13   Accuracy: 83.33%
+2-4-Time           Loss: 24   Accuracy: 70.00%
+3-4-Time           Loss: 20   Accuracy: 75.00%
+3-8-Time           Loss: 17   Accuracy: 78.75%
+4-4-Time           Loss: 16   Accuracy: 80.00%
+6-8-Time           Loss: 7    Accuracy: 91.25%
+9-8-Time           Loss: 11   Accuracy: 86.25%
+Barline            Loss: 1    Accuracy: 98.75%
+C-Clef             Loss: 19   Accuracy: 76.25%
+Common-Time        Loss: 1    Accuracy: 98.75%
+Cut-Time           Loss: 15   Accuracy: 81.25%
+Dot                Loss: 2    Accuracy: 97.50%
+Double-Sharp       Loss: 16   Accuracy: 80.00%
+Eighth-Note        Loss: 59   Accuracy: 63.12%
+Eighth-Rest        Loss: 11   Accuracy: 86.25%
+F-Clef             Loss: 7    Accuracy: 91.25%
+Flat               Loss: 8    Accuracy: 89.74%
+G-Clef             Loss: 6    Accuracy: 92.50%
+Half-Note          Loss: 26   Accuracy: 83.54%
+Natural            Loss: 13   Accuracy: 83.75%
+Quarter-Note       Loss: 45   Accuracy: 71.88%
+Quarter-Rest       Loss: 32   Accuracy: 60.00%
+Sharp              Loss: 27   Accuracy: 66.25%
+Sixteenth-Note     Loss: 90   Accuracy: 43.75%
+Sixteenth-Rest     Loss: 29   Accuracy: 63.75%
+Sixty-Four-Note    Loss: 58   Accuracy: 63.29%
+Sixty-Four-Rest    Loss: 33   Accuracy: 58.75%
+Thirty-Two-Note    Loss: 102  Accuracy: 35.44%
+Thirty-Two-Rest    Loss: 40   Accuracy: 50.00%
+Whole-Half-Rest    Loss: 7    Accuracy: 91.25%
+Whole-Note         Loss: 0    Accuracy: 100.00%
+
+Loss: 767.0	 Time: 3.50s
+
+Running KNN with k=6...
+Loading model...
+Getting predictions...
+Calculating loss...
+12-8-Time          Loss: 12   Accuracy: 85.00%
+2-2-Time           Loss: 14   Accuracy: 82.05%
+2-4-Time           Loss: 23   Accuracy: 71.25%
+3-4-Time           Loss: 20   Accuracy: 75.00%
+3-8-Time           Loss: 18   Accuracy: 77.50%
+4-4-Time           Loss: 17   Accuracy: 78.75%
+6-8-Time           Loss: 9    Accuracy: 88.75%
+9-8-Time           Loss: 10   Accuracy: 87.50%
+Barline            Loss: 1    Accuracy: 98.75%
+C-Clef             Loss: 17   Accuracy: 78.75%
+Common-Time        Loss: 2    Accuracy: 97.50%
+Cut-Time           Loss: 12   Accuracy: 85.00%
+Dot                Loss: 3    Accuracy: 96.25%
+Double-Sharp       Loss: 17   Accuracy: 78.75%
+Eighth-Note        Loss: 56   Accuracy: 65.00%
+Eighth-Rest        Loss: 12   Accuracy: 85.00%
+F-Clef             Loss: 9    Accuracy: 88.75%
+Flat               Loss: 8    Accuracy: 89.74%
+G-Clef             Loss: 7    Accuracy: 91.25%
+Half-Note          Loss: 28   Accuracy: 82.28%
+Natural            Loss: 11   Accuracy: 86.25%
+Quarter-Note       Loss: 43   Accuracy: 73.12%
+Quarter-Rest       Loss: 34   Accuracy: 57.50%
+Sharp              Loss: 29   Accuracy: 63.75%
+Sixteenth-Note     Loss: 81   Accuracy: 49.38%
+Sixteenth-Rest     Loss: 29   Accuracy: 63.75%
+Sixty-Four-Note    Loss: 58   Accuracy: 63.29%
+Sixty-Four-Rest    Loss: 30   Accuracy: 62.50%
+Thirty-Two-Note    Loss: 99   Accuracy: 37.34%
+Thirty-Two-Rest    Loss: 44   Accuracy: 45.00%
+Whole-Half-Rest    Loss: 5    Accuracy: 93.75%
+Whole-Note         Loss: 0    Accuracy: 100.00%
+
+Loss: 758.0	 Time: 3.15s
+
+KNN acc:74.98%	 total time:16.07s	 best k:6
+
+-= Begin SVM =-
+Loading model...
+Getting predictions...
+12-8-Time          Loss: 10   Accuracy: 87.50%
+2-2-Time           Loss: 10   Accuracy: 87.18%
+2-4-Time           Loss: 21   Accuracy: 73.75%
+3-4-Time           Loss: 12   Accuracy: 85.00%
+3-8-Time           Loss: 17   Accuracy: 78.75%
+4-4-Time           Loss: 12   Accuracy: 85.00%
+6-8-Time           Loss: 1    Accuracy: 98.75%
+9-8-Time           Loss: 9    Accuracy: 88.75%
+Barline            Loss: 1    Accuracy: 98.75%
+C-Clef             Loss: 5    Accuracy: 93.75%
+Common-Time        Loss: 2    Accuracy: 97.50%
+Cut-Time           Loss: 6    Accuracy: 92.50%
+Dot                Loss: 0    Accuracy: 100.00%
+Double-Sharp       Loss: 12   Accuracy: 85.00%
+Eighth-Note        Loss: 30   Accuracy: 81.25%
+Eighth-Rest        Loss: 10   Accuracy: 87.50%
+F-Clef             Loss: 10   Accuracy: 87.50%
+Flat               Loss: 6    Accuracy: 92.31%
+G-Clef             Loss: 11   Accuracy: 86.25%
+Half-Note          Loss: 17   Accuracy: 89.24%
+Natural            Loss: 12   Accuracy: 85.00%
+Quarter-Note       Loss: 19   Accuracy: 88.12%
+Quarter-Rest       Loss: 18   Accuracy: 77.50%
+Sharp              Loss: 14   Accuracy: 82.50%
+Sixteenth-Note     Loss: 57   Accuracy: 64.38%
+Sixteenth-Rest     Loss: 20   Accuracy: 75.00%
+Sixty-Four-Note    Loss: 65   Accuracy: 58.86%
+Sixty-Four-Rest    Loss: 34   Accuracy: 57.50%
+Thirty-Two-Note    Loss: 96   Accuracy: 39.24%
+Thirty-Two-Rest    Loss: 36   Accuracy: 55.00%
+Whole-Half-Rest    Loss: 4    Accuracy: 95.00%
+Whole-Note         Loss: 1    Accuracy: 98.75%
+
+SVM Loss: 578.0	 Time:7.34s
+
+SVM acc:80.92%	 total time:7.34s
+
+-= Begin SGD =-
+Loading model...
+Getting predictions...
+12-8-Time          Loss: 22   Accuracy: 72.50%
+2-2-Time           Loss: 24   Accuracy: 69.23%
+2-4-Time           Loss: 29   Accuracy: 63.75%
+3-4-Time           Loss: 31   Accuracy: 61.25%
+3-8-Time           Loss: 25   Accuracy: 68.75%
+4-4-Time           Loss: 21   Accuracy: 73.75%
+6-8-Time           Loss: 18   Accuracy: 77.50%
+9-8-Time           Loss: 20   Accuracy: 75.00%
+Barline            Loss: 2    Accuracy: 97.50%
+C-Clef             Loss: 18   Accuracy: 77.50%
+Common-Time        Loss: 10   Accuracy: 87.50%
+Cut-Time           Loss: 20   Accuracy: 75.00%
+Dot                Loss: 5    Accuracy: 93.75%
+Double-Sharp       Loss: 18   Accuracy: 77.50%
+Eighth-Note        Loss: 76   Accuracy: 52.50%
+Eighth-Rest        Loss: 14   Accuracy: 82.50%
+F-Clef             Loss: 16   Accuracy: 80.00%
+Flat               Loss: 14   Accuracy: 82.05%
+G-Clef             Loss: 12   Accuracy: 85.00%
+Half-Note          Loss: 63   Accuracy: 60.13%
+Natural            Loss: 20   Accuracy: 75.00%
+Quarter-Note       Loss: 63   Accuracy: 60.62%
+Quarter-Rest       Loss: 37   Accuracy: 53.75%
+Sharp              Loss: 31   Accuracy: 61.25%
+Sixteenth-Note     Loss: 103  Accuracy: 35.62%
+Sixteenth-Rest     Loss: 36   Accuracy: 55.00%
+Sixty-Four-Note    Loss: 96   Accuracy: 39.24%
+Sixty-Four-Rest    Loss: 43   Accuracy: 46.25%
+Thirty-Two-Note    Loss: 126  Accuracy: 20.25%
+Thirty-Two-Rest    Loss: 49   Accuracy: 38.75%
+Whole-Half-Rest    Loss: 5    Accuracy: 93.75%
+Whole-Note         Loss: 2    Accuracy: 97.50%
+
+SGD Loss: 1069.0	 Time:0.0358s
+
+SGD acc:64.72%	 total time:0.0359s
+
+-= Begin NN =-
+12-8-Time          Loss: 2    Accuracy: 95.00%
+2-2-Time           Loss: 4    Accuracy: 89.74%
+2-4-Time           Loss: 10   Accuracy: 75.00%
+3-4-Time           Loss: 5    Accuracy: 87.50%
+3-8-Time           Loss: 0    Accuracy: 100.00%
+4-4-Time           Loss: 6    Accuracy: 85.00%
+6-8-Time           Loss: 2    Accuracy: 95.00%
+9-8-Time           Loss: 1    Accuracy: 97.50%
+Barline            Loss: 1    Accuracy: 97.50%
+C-Clef             Loss: 2    Accuracy: 95.00%
+Common-Time        Loss: 5    Accuracy: 87.50%
+Cut-Time           Loss: 8    Accuracy: 80.00%
+Dot                Loss: 2    Accuracy: 95.00%
+Double-Sharp       Loss: 5    Accuracy: 87.50%
+Eighth-Note        Loss: 53   Accuracy: 33.75%
+Eighth-Rest        Loss: 20   Accuracy: 50.00%
+F-Clef             Loss: 5    Accuracy: 87.50%
+Flat               Loss: 8    Accuracy: 79.49%
+G-Clef             Loss: 1    Accuracy: 97.50%
+Half-Note          Loss: 1    Accuracy: 98.73%
+Natural            Loss: 5    Accuracy: 87.50%
+Quarter-Note       Loss: 37   Accuracy: 53.75%
+Quarter-Rest       Loss: 20   Accuracy: 50.00%
+Sharp              Loss: 5    Accuracy: 87.50%
+Sixteenth-Note     Loss: 66   Accuracy: 17.50%
+Sixteenth-Rest     Loss: 32   Accuracy: 20.00%
+Sixty-Four-Note    Loss: 2    Accuracy: 97.47%
+Sixty-Four-Rest    Loss: 2    Accuracy: 95.00%
+Thirty-Two-Note    Loss: 71   Accuracy: 10.13%
+Thirty-Two-Rest    Loss: 26   Accuracy: 35.00%
+Whole-Half-Rest    Loss: 2    Accuracy: 95.00%
+Whole-Note         Loss: 1    Accuracy: 97.50%
+
+NN Loss: 410.0	 Time:35.5705s
+
+NN acc:72.94%	 total time:37.72s
